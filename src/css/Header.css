@@ -1,0 +1,18 @@
+.netflix-logo > img{
+    height: 80px;
+    margin: 40px ;
+}
+
+.signupbtn{
+   height: 40px;
+   width: 100px;
+   align-self: center;
+   margin: 0px 50px;
+   cursor: pointer;
+   background-color: #e50914;
+   color: white;
+   border: none;
+   border-radius: 0.2rem;
+   font-weight: bolder;
+   font-size: 1.05rem;
+}
