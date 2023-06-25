@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SignupPage from './pages/SignupPage';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Netflix from './pages/Netflix';
 
 const appRouter = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const appRouter = createBrowserRouter([
   {
     path: "/home",
     element: <Home />
+  },
+  {
+    path: "/netflix",
+    element: <Netflix />
   }
 ])
 

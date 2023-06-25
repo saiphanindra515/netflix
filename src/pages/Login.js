@@ -1,8 +1,12 @@
 import Background from "../components/Background";
 import Header from "../components/Header";
 import '../css/Login.css';
+import InputCustomComp from "../custom/InputCustomComp";
+import { useNavigate } from 'react-router-dom';
+
 
 const Login = () => {
+    const navigate = useNavigate();
     return <div className="root-container">
         <Background />
         <div className="content">
@@ -12,11 +16,8 @@ const Login = () => {
                 <h3 className="t-w sub-heading">watch anywhere, cancel anytime</h3>
                 <h3 className="t-w sub-heading">Ready to watch? Enter your email to create or restart your membership.</h3>
                 <form className="sign-in-form">
-                    <span className="parent-input">
-                    <input type="text" placeholder=" " className="input-text"></input>
-                    <label className="form-label"> Email Address</label>
-                    </span>
-                    <button className="getstarted-btn">Get Started  &gt;</button>
+                  <InputCustomComp label="Email Address" onChangeFun = {(e) => {console.log(e.target.value);}} />
+                    <button onClick={() => navigate('/signup')} className="getstarted-btn">Get Started  &gt;</button>
                 </form>
             </div>
         </div>

@@ -18,7 +18,7 @@ code {
 }
 
 html, body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .d-flex{
@@ -27,4 +27,32 @@ html, body{
 
 .justify-spacebetween{
   justify-content: space-between;
+}
+
+.j-center{
+  justify-content: center;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.a-center{
+  align-items: center;
+}
+
+.root-container{
+  position: relative;
+}
+.content{
+  position: absolute;
+  height:100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }

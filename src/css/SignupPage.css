@@ -1,0 +1,89 @@
+.signin-root-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.signin-form-container{
+    width: 350px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    text-align: center;
+    padding: 60px 68px 40px ;
+}
+
+.signin-text{
+    color: white;
+    float: left;
+    margin: 0px 20px 20px;
+}
+
+.signin-form-container .input-text{
+    width: 300px;
+    background-color: #333;
+    margin: 10px 0px;
+}
+
+.signin-form-container .input-text ~.form-label{
+    font-size: 1rem;
+}
+
+.signin-form-container .signin-btn{
+    background-color: #e50914;
+    width: 340px;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.getstarted-btn{
+    padding: 0.8rem 1.5rem;
+    align-self: center;
+    margin: 0px 10px;
+}
+
+.new-to-netflix{
+    color: #737373;
+    margin: 20px;
+    float: left;
+}
+
+.signup-now{
+    color: white;
+    font-weight: 600;
+}
+
+.sampletext{
+    font-size: 0.8rem;
+    color: #8c8c8c;
+    margin: 0px 20px;
+    float: left;
+}
+
+.remember-section{
+    width: 340px;
+    font-size: 0.8rem;
+    color: #8c8c8c;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.remember-section input{
+    margin: 0px 10px;
+}
+
+.remember-section p{
+    float: right;
+}
+
+.learnnow{
+    color: #0071EB;
+}
